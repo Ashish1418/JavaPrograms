@@ -1,0 +1,14 @@
+public class String_new_keyword
+{
+    public static void main(String args [])
+    {
+        String a=new String("Ashish");
+        System.out.println(a);
+        String b=new String ("Ashish");
+        System.out.println(b);
+        a=a.concat(" Sharma");
+        System.out.println(a);
+        b=b.concat(" Sharma");
+        System.out.println(b);
+    }
+}
